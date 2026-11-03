@@ -1,0 +1,15 @@
+{
+  "tests_passed": 15,
+  "test_log": "../reports/pc_tests.log",
+  "test_log_sha256": "1f982c00ca0075915bc53fef0bab972387df64b1e5b29b28a0a37d4577634b4f",
+  "bit_sha256": "77b208772004bcc688503cac73cc5403d7888d0846a4e15edf62d9e323dd3379",
+  "sources": {
+    "__init__.py": "80e098fcfcacab568c6d19709fa4e9d39673be3d12768692fa1e342ab0f670d5",
+    "app.py": "5d03a9696f0f4c4fbe0f315c2c4206d2afb08ee45d31c26c13e8740829331ece",
+    "core.py": "d75a59be69fea00319a6763b872d04a8f390fed01f3e0a53ab4567e14256622a",
+    "knowledge.py": "d680aeb1e5186cffafb54e7c790fb541ce89c9c68e2b1f8c31bf786202618feb",
+    "preview.py": "c2e75d845f2838ee18f4b438ef3c42cdee9ac3ff43091d631c9bc151da9888a6",
+    "test_learning.py": "d2252e9ecc5ef6862c69e2da792c6ee9acf7164fc54de071cec223bead5f337a"
+  },
+  "scope": "Current desktop application unit and GUI tests; local knowledge search."
+}

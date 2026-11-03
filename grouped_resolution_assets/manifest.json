@@ -1,0 +1,110 @@
+[
+  {
+    "file": "PIC01.BMP",
+    "group": "learning",
+    "width": 640,
+    "height": 480,
+    "bytes": 921654,
+    "sha256": "c31154f88980dca32679bb99254b8acb9d2041b6f53bea5e2f2703c47ec7bb42",
+    "source_sha256": "c31154f88980dca32679bb99254b8acb9d2041b6f53bea5e2f2703c47ec7bb42"
+  },
+  {
+    "file": "PIC02.BMP",
+    "group": "learning",
+    "width": 640,
+    "height": 480,
+    "bytes": 921654,
+    "sha256": "fb97cf0d10e658ca8ad2d9b03389414f8211ab367d9ba00319fc1fb87b5e2336",
+    "source_sha256": "fb97cf0d10e658ca8ad2d9b03389414f8211ab367d9ba00319fc1fb87b5e2336"
+  },
+  {
+    "file": "PIC03.BMP",
+    "group": "learning",
+    "width": 640,
+    "height": 480,
+    "bytes": 921654,
+    "sha256": "059197bfdf4713ae80ade786903a8c35701e4a6a1468c0cf45dfd92431920fd7",
+    "source_sha256": "059197bfdf4713ae80ade786903a8c35701e4a6a1468c0cf45dfd92431920fd7"
+  },
+  {
+    "file": "PIC04.BMP",
+    "group": "learning",
+    "width": 640,
+    "height": 480,
+    "bytes": 921654,
+    "sha256": "960778cf9223f0b4658d2bf37d3f34434bed01c2ca4e383feddec016e59d3aa4",
+    "source_sha256": "960778cf9223f0b4658d2bf37d3f34434bed01c2ca4e383feddec016e59d3aa4"
+  },
+  {
+    "file": "PIC05.BMP",
+    "group": "question",
+    "width": 800,
+    "height": 600,
+    "bytes": 1440054,
+    "sha256": "964e46214567dd0a67b5f75362392b09bda46be9f0bcd965b7d7753c841c053a",
+    "source_sha256": "414e64ffd434a8710ccf83eb5ec15de4440c0ccd5151fee3d1238707070618d7"
+  },
+  {
+    "file": "PIC06.BMP",
+    "group": "question",
+    "width": 800,
+    "height": 600,
+    "bytes": 1440054,
+    "sha256": "bc6256c744203218846ced8b05876f66c728ae00b5fa8acd392f71dd947a4cfe",
+    "source_sha256": "e7632782c8f1a9ea4f7aea5485ab75542c3749dc118266f1662683243a46cba7"
+  },
+  {
+    "file": "PIC07.BMP",
+    "group": "question",
+    "width": 800,
+    "height": 600,
+    "bytes": 1440054,
+    "sha256": "eeb22ab875e47ef5d6e5324e2facf36337f66af1eb6fbdf68e0d9957b01e33a8",
+    "source_sha256": "7fab6527853f2a02dfd9eb08bd748e8547e879413b2b67d59d593654d86f0325"
+  },
+  {
+    "file": "PIC08.BMP",
+    "group": "question",
+    "width": 800,
+    "height": 600,
+    "bytes": 1440054,
+    "sha256": "2d7fe65f4dbfc91469610983118dd70ca4d3f3e296752f943f8bfabd209a931d",
+    "source_sha256": "f298732bcf9f107055da65ceea620f7273ef0a1b2c67dd9a3973049412f22ee9"
+  },
+  {
+    "file": "PIC09.BMP",
+    "group": "explanation",
+    "width": 1024,
+    "height": 768,
+    "bytes": 2359350,
+    "sha256": "11c5f072432d7303ccd619d243d22283deb14cda707f0c290a2001312eec0ff8",
+    "source_sha256": "ef82c4be2b4666eb53e5ea0fd95d6af54afa564ed9e1666e2f71b06ecb1e3cb8"
+  },
+  {
+    "file": "PIC10.BMP",
+    "group": "explanation",
+    "width": 1024,
+    "height": 768,
+    "bytes": 2359350,
+    "sha256": "e5a5a969a5d55b3a42ffc9d4c858bf03ca861f9fcf8790897edb49a5fada7ff1",
+    "source_sha256": "271f51b514dcaaafe828dc035f575c2e17f015a05e49cf483328b01946313397"
+  },
+  {
+    "file": "PIC11.BMP",
+    "group": "explanation",
+    "width": 1024,
+    "height": 768,
+    "bytes": 2359350,
+    "sha256": "712e065c8846e66b5b640d2657a1256768ff959f93f72f15d41b024b42359e77",
+    "source_sha256": "b845cf9c2d5fb548ed7808818db2602db61c2ba46fcca53e086070f6b1711032"
+  },
+  {
+    "file": "PIC12.BMP",
+    "group": "explanation",
+    "width": 1024,
+    "height": 768,
+    "bytes": 2359350,
+    "sha256": "0fc57187856e21a07f2c43bb93c972ab26fafecf1adbbf52799d0b7bc159baef",
+    "source_sha256": "7f215591d03b2706814f6540f644e6cfa591196c1e8cef6013ca836f51d9ec5b"
+  }
+]
