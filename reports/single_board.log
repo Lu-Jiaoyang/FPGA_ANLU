@@ -1,0 +1,72 @@
+# do test_single_board.do
+# Model Technology ModelSim SE-64 vmap 10.6e Lib Mapping Utility 2018.06 Jun 23 2018
+# vmap single sim/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 19:44:34 on Oct 31,2026
+# vlog -sv -work single common/key_debounce.v common/score_digits.v common/seg_scan8.v common/uart_tx.v common/single_board_control.v interaction/rtl/quiz_answer_session.v interaction/rtl/quiz_answer_display.v interaction/rtl/quiz_pc_reporter.v interaction/rtl/key_beep.v fpga/src/user_source/hdl_source/quiz_presentation_session.v fpga/src/user_source/hdl_source/quiz_presentation_display.v fpga/src/user_source/hdl_source/picture_controls.v fpga/src/user_source/hdl_source/SD/sd_card_bmp.v sim/tb_single_board.sv 
+# -- Compiling module key_debounce
+# -- Compiling module score_digits
+# -- Compiling module seg_scan8
+# -- Compiling module uart_tx
+# -- Compiling module single_board_control
+# -- Compiling module quiz_answer_session
+# -- Compiling module quiz_answer_display
+# -- Compiling module quiz_pc_reporter
+# -- Compiling module key_beep
+# -- Compiling module quiz_presentation_session
+# -- Compiling module quiz_presentation_display
+# -- Compiling module picture_controls
+# -- Compiling module sd_card_bmp
+# -- Compiling module key_press_debounce
+# -- Compiling module tb_single_board
+# 
+# Top level modules:
+# 	sd_card_bmp
+# 	tb_single_board
+# End time: 19:44:34 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop single.tb_single_board 
+# Start time: 19:44:35 on Oct 31,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "single_board_control(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "quiz_presentation_session(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "quiz_answer_session(fast)".
+# //  ModelSim SE-64 10.6e Jun 23 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_single_board(fast)
+# Loading work.single_board_control(fast)
+# Loading work.picture_controls(fast)
+# Loading work.key_press_debounce(fast)
+# Loading work.quiz_presentation_session(fast)
+# Loading work.key_debounce(fast)
+# Loading work.quiz_answer_session(fast)
+# Loading work.quiz_pc_reporter(fast)
+# Loading work.uart_tx(fast)
+# Loading work.key_beep(fast)
+# Loading work.quiz_answer_display(fast)
+# Loading work.score_digits(fast)
+# Loading work.seg_scan8(fast)
+# Loading work.quiz_presentation_display(fast)
+# Loading work.key_debounce(fast__1)
+# ALL VOLUME MENU TESTS PASSED: defaults, clamps, held keys, four-item navigation and no key leakage
+# ALL WRONG REVIEW TESTS PASSED: 16 masks, ordered explanations, score/UART invariance, correct digits, held keys, error/retry/timeouts, repeated review and all-correct case
+# PASS single-board integration: 16 score combinations, real key debounce/routing, settings, held keys, feedback view, storage error/retry and shared reset
+# ** Note: $finish    : sim/tb_single_board.sv(195)
+#    Time: 19825920 ns  Iteration: 1  Instance: /tb_single_board
+# Break in Module tb_single_board at sim/tb_single_board.sv line 195
+# Stopped at sim/tb_single_board.sv line 195
+# End time: 19:44:37 on Oct 31,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

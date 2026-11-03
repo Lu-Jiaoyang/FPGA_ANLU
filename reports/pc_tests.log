@@ -1,0 +1,20 @@
+test_actual_hardware_transcript (pc_learning.test_learning.CoreTests.test_actual_hardware_transcript) ... ok
+test_duplicate_restart_and_missing_records (pc_learning.test_learning.CoreTests.test_duplicate_restart_and_missing_records) ... ok
+test_every_answer_pattern (pc_learning.test_learning.CoreTests.test_every_answer_pattern) ... ok
+test_every_fragment_boundary (pc_learning.test_learning.CoreTests.test_every_fragment_boundary) ... ok
+test_oversize_noise_recovers_at_line_boundary (pc_learning.test_learning.CoreTests.test_oversize_noise_recovers_at_line_boundary) ... ok
+test_reject_malformed_or_inconsistent (pc_learning.test_learning.CoreTests.test_reject_malformed_or_inconsistent) ... ok
+test_score_jump_does_not_corrupt_history (pc_learning.test_learning.CoreTests.test_score_jump_does_not_corrupt_history) ... ok
+test_search_alias_multiword_and_no_match (pc_learning.test_learning.CoreTests.test_search_alias_multiword_and_no_match) ... ok
+test_fragmented_transport_disconnect_and_reconnect (pc_learning.test_learning.WindowTests.test_fragmented_transport_disconnect_and_reconnect) ... ok
+test_invalid_line_and_port_failure (pc_learning.test_learning.WindowTests.test_invalid_line_and_port_failure) ... ok
+test_late_connection_keeps_missing_questions_unknown (pc_learning.test_learning.WindowTests.test_late_connection_keeps_missing_questions_unknown) ... ok
+test_real_messages_render_and_history_can_be_revisited (pc_learning.test_learning.WindowTests.test_real_messages_render_and_history_can_be_revisited) ... ok
+test_search_and_local_clear (pc_learning.test_learning.WindowTests.test_search_and_local_clear) ... ok
+test_single_device_guidance_and_real_progress (pc_learning.test_learning.WindowTests.test_single_device_guidance_and_real_progress) ... ok
+test_unplug_keeps_results_and_allows_reconnect (pc_learning.test_learning.WindowTests.test_unplug_keeps_results_and_allows_reconnect) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.211s
+
+OK

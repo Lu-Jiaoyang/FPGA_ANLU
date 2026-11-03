@@ -1,0 +1,23 @@
+{
+  "resources": {
+    "lut": 14476,
+    "reg": 8944,
+    "bram": 53,
+    "bram32k": 13,
+    "dsp": 13,
+    "pll": 3
+  },
+  "physical_rom_blocks": {
+    "video_effects/boot_rom": 19,
+    "answer_rom": 13,
+    "resizer/line_store": 3
+  },
+  "sta_coverage_percent": 99.99,
+  "bit_sha256": "77b208772004bcc688503cac73cc5403d7888d0846a4e15edf62d9e323dd3379",
+  "device": "EG4S20BG256",
+  "setup_wns_ns": 0.154,
+  "hold_wns_ns": 0.011,
+  "setup_tns_ns": 0,
+  "hold_tns_ns": 0,
+  "constraints_scope": "Reported paths under the supplied constraints; external I/O delay and full CDC characterization are outside this report."
+}

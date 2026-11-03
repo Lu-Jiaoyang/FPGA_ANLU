@@ -1,0 +1,40 @@
+RUN-1002 : start command "connect_cable -allink"
+RUN-1003 : finish command "connect_cable -allink" in  0.000007s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 25 MB, reserved memory is 10 MB, peak memory is 25 MB
+RUN-1002 : start command "list_cable"
+PRG-1000 : Connect device:
+0:EG4S20BG256
+
+RUN-1003 : finish command "list_cable" in  0.044856s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 26 MB, reserved memory is 10 MB, peak memory is 26 MB
+RUN-1002 : start command "read_device_id -cable 0"
+EG4S20BG256
+RUN-1003 : finish command "read_device_id -cable 0" in  0.024698s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (63.3%)
+
+RUN-1004 : used memory is 26 MB, reserved memory is 10 MB, peak memory is 26 MB
+RUN-1002 : start command "download -bit C:/Users/lenovo/FPGA/sdram_timing_20261031/single_board_quiz_sdram50.bit -mode verify_spi -cable 0 -flashsize 16"
+PRG-2014 : Chip validation success: EG4S20BG256
+PRG-1001 : SPI Flash ID is:  ef
+PRG-1001 : Online device is:  EG4S20BG256
+PRG-1001 : Online device is:  EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 3.000000 -bit C:/Users/lenovo/FPGA/sdram_timing_20261031/single_board_quiz_sdram50.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m verify_spi -freq 3.000000 -bit C:/Users/lenovo/FPGA/sdram_timing_20261031/single_board_quiz_sdram50.bit" in  0.355480s wall, 0.296875s user + 0.046875s system = 0.343750s CPU (96.7%)
+
+RUN-1004 : used memory is 171 MB, reserved memory is 162 MB, peak memory is 206 MB
+RUN-1002 : start command "program -cable 0 -spd 7 -p"
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+RUN-1003 : finish command "program -cable 0 -spd 7 -p" in  8.092779s wall, 0.187500s user + 0.015625s system = 0.203125s CPU (2.5%)
+
+RUN-1004 : used memory is 199 MB, reserved memory is 192 MB, peak memory is 206 MB
+RUN-1003 : finish command "download -bit C:/Users/lenovo/FPGA/sdram_timing_20261031/single_board_quiz_sdram50.bit -mode verify_spi -cable 0 -flashsize 16" in  14.915640s wall, 0.500000s user + 0.093750s system = 0.593750s CPU (4.0%)
+
+RUN-1004 : used memory is 199 MB, reserved memory is 192 MB, peak memory is 206 MB
+FLASH_VERIFY_COMMAND_FINISHED

@@ -1,0 +1,13 @@
+{
+  "rtl_files_compared": 81,
+  "project_references_each": 66,
+  "bmp_assets_checked": 12,
+  "bit_sha256": "77b208772004bcc688503cac73cc5403d7888d0846a4e15edf62d9e323dd3379",
+  "path_migration": "passed",
+  "invalid_tool_path_rejected_before_writes": true,
+  "path_migration_idempotent": true,
+  "rtl_test_suites_passed": 8,
+  "desktop_tests_passed": 15,
+  "terminology_scan": "passed",
+  "scope": "Current single-FPGA submission"
+}

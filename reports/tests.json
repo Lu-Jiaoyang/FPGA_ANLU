@@ -1,0 +1,55 @@
+{
+  "single_board": {
+    "passed": true,
+    "log": "single_board.log",
+    "marker": "PASS single-board integration: 16 score combinations",
+    "log_sha256": "7137f051ebc4b940099c5c743dea0dd77a87e8a7d96ae67636ceebae36efe4cb"
+  },
+  "audio_volume": {
+    "passed": true,
+    "log": "audio_volume.log",
+    "marker": "ALL AUDIO VOLUME TESTS PASSED",
+    "log_sha256": "e31ce700e56c173fcf6e61a19070a690fb7e1dae4fbe9e896dfdcb1676232639"
+  },
+  "learning_media": {
+    "passed": true,
+    "log": "learning_media.log",
+    "marker": "ALL LEARNING MEDIA TESTS PASSED",
+    "log_sha256": "8892d26a0599784e625f148ff4eb6564d9bb2c842664cf7bec1edfddd22b9065"
+  },
+  "center_menu": {
+    "passed": true,
+    "log": "center_menu.log",
+    "marker": "ALL CENTER MENU TESTS PASSED: 2457600 exact pixels",
+    "log_sha256": "ef43da3030dd26cef69e159230afff3f4d8efb74e5db0a2a801a819f946ab919"
+  },
+  "sdram_clock_refresh": {
+    "passed": true,
+    "log": "sdram_clock_refresh.log",
+    "marker": "PASS SDRAM clocks 100/50/50MHz, +7ns",
+    "log_sha256": "91ca8a47dbe2da01a1aeeab8141b80d141b5c1deb75dee54329bac88fa2d8f01"
+  },
+  "sdram_bandwidth": {
+    "passed": true,
+    "log": "sdram_bandwidth.log",
+    "marker": "PASS SDRAM bandwidth: 921600 pixels",
+    "log_sha256": "d01b385922d199043df88efb2640f3766d32d8b8c733c324954320fa2ab68bf7"
+  },
+  "presentation": {
+    "passed": true,
+    "log": "presentation.log",
+    "marker": "PASS",
+    "log_sha256": "f06323e9f32aac269a23ed0fff6fe152c1b897668741023b34fca96155b324e1"
+  },
+  "fat32_resize": {
+    "passed": true,
+    "log": "fat32_resize.log",
+    "marker": "ALL FAT32 RESIZE TESTS PASSED",
+    "log_sha256": "d18cbcaa70af9e443e0a6e5f9ebc31faa4fb6b8306f4984dd0284c0f9529b936"
+  },
+  "pc": {
+    "passed": true,
+    "count": 15,
+    "log_sha256": "1f982c00ca0075915bc53fef0bab972387df64b1e5b29b28a0a37d4577634b4f"
+  }
+}

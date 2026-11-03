@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-31T19:48:17+08:00",
+  "device": "EG4S20BG256",
+  "bit_sha256": "77b208772004bcc688503cac73cc5403d7888d0846a4e15edf62d9e323dd3379",
+  "bit_bytes": 751852,
+  "program_and_verify": "passed",
+  "independent_verify_flash": "passed",
+  "physical_power_cycle": "not performed after this programming",
+  "user_hardware_observation": "User accepted this bit on board before Flash programming.",
+  "logs": {
+    "program": {
+      "path": "program.log",
+      "sha256": "3c1052bf4f711d1aa5333e9725d96421b4f0e7d606bc64945237cbe4ea27bf8e"
+    },
+    "verify": {
+      "path": "verify.log",
+      "sha256": "c7d809f47b253c8ed51e73baeb1845f2a54651a275254abc466529259fd7c37b"
+    }
+  }
+}

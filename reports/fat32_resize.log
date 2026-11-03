@@ -1,0 +1,96 @@
+# do test_fat32_resize.do
+# Model Technology ModelSim SE-64 vmap 10.6e Lib Mapping Utility 2018.06 Jun 23 2018
+# vmap doc_fat32_resize sim/doc_fat32_resize 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 19:48:31 on Oct 31,2026
+# vlog -work doc_fat32_resize D:/Anlogic/TD_Release_2026.1_SP2/sim_release/eg4/eg_logic_bram.v D:/Anlogic/TD_Release_2026.1_SP2/sim_release/eg4/eg_phy_bram.v D:/Anlogic/TD_Release_2026.1_SP2/sim_release/eg4/eg_phy_bram32k.v 
+# -- Compiling module EG_PHY_BRAM
+# -- Compiling module EG_PHY_BRAM32K
+# 
+# Top level modules:
+# 	EG_PHY_BRAM
+# 	EG_PHY_BRAM32K
+# End time: 19:48:31 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 19:48:31 on Oct 31,2026
+# vlog -sv -work doc_fat32_resize fpga/src/user_source/hdl_source/SD/fat32_bmp_reader.v fpga/src/user_source/hdl_source/SD/bmp_resize_stream.v 
+# -- Compiling module fat32_bmp_reader
+# -- Compiling module bmp_resize_stream
+# 
+# Top level modules:
+# 	fat32_bmp_reader
+# End time: 19:48:31 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 19:48:31 on Oct 31,2026
+# vlog -sv -work doc_fat32_resize sim/sd_card_model.sv sim/tb_fat32.sv 
+# -- Compiling module sd_card_top
+# -- Compiling module tb_fat32
+# 
+# Top level modules:
+# 	tb_fat32
+# End time: 19:48:31 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 19:48:32 on Oct 31,2026
+# vlog -sv -work doc_fat32_resize sim/tb_fat32_resize.sv 
+# -- Compiling module tb_fat32_resize
+# 
+# Top level modules:
+# 	tb_fat32_resize
+# End time: 19:48:32 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -onfinish stop doc_fat32_resize.tb_fat32_resize 
+# Start time: 19:48:32 on Oct 31,2026
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  ModelSim SE-64 10.6e Jun 23 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing C:/Users/lenovo/Downloads/FPGA_submission_20261031_final/science_learning_system/sim/doc_fat32_resize.tb_fat32_resize
+# Loading sv_std.std
+# Loading doc_fat32_resize.tb_fat32_resize
+# Refreshing C:/Users/lenovo/Downloads/FPGA_submission_20261031_final/science_learning_system/sim/doc_fat32_resize.fat32_bmp_reader
+# Loading doc_fat32_resize.fat32_bmp_reader
+# Refreshing C:/Users/lenovo/Downloads/FPGA_submission_20261031_final/science_learning_system/sim/doc_fat32_resize.bmp_resize_stream
+# Loading doc_fat32_resize.bmp_resize_stream
+# Refreshing C:/Users/lenovo/Downloads/FPGA_submission_20261031_final/science_learning_system/sim/doc_fat32_resize.sd_card_top
+# Loading doc_fat32_resize.sd_card_top
+# PASS FAT resize 1x1 -> 8x6 code 00
+# PASS FAT resize 3x5 -> 8x6 code 00
+# PASS FAT resize 7x9 -> 8x6 code 00
+# PASS FAT resize 16x12 -> 8x6 code 00
+# PASS FAT resize 8x6 -> 8x6 code 00
+# PASS FAT resize 19x13 -> 8x6 code 00
+# PASS FAT resize 31x17 -> 8x6 code 00
+# PASS FAT resize 0x2 -> 8x6 code 30
+# PASS FAT resize 1921x1 -> 8x6 code 30
+# PASS FAT resize 1x1081 -> 8x6 code 30
+# PASS FAT resize 1x-1 -> 8x6 code 30
+# PASS FAT resize 3x5 -> 8x6 code 30
+# PASS FAT resize 16x12 -> 8x6 code 30
+# PASS FAT resize 1x1 -> 640x480 code 00
+# PASS FAT resize 320x240 -> 640x480 code 00
+# PASS FAT resize 1280x960 -> 640x480 code 00
+# PASS FAT resize 1920x1080 -> 640x480 code 00
+# PASS FAT resize 640x480 -> 640x480 code 00
+# PASS FAT resize 800x600 -> 640x480 code 00
+# PASS FAT resize 1024x768 -> 640x480 code 00
+# ALL FAT32 RESIZE TESTS PASSED (20 cases)
+# ** Note: $finish    : sim/tb_fat32_resize.sv(78)
+#    Time: 938151300 ns  Iteration: 1  Instance: /tb_fat32_resize
+# Break in Module tb_fat32_resize at sim/tb_fat32_resize.sv line 78
+# Stopped at sim/tb_fat32_resize.sv line 78
+# End time: 19:49:39 on Oct 31,2026, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 1
