@@ -1,0 +1,42 @@
+{
+  "clips": [
+    {
+      "name": "applause",
+      "source": "applause_source.wav",
+      "source_sha256": "d8d44ae50a16ba4218c1861c8fa236c481c2caf56195883edc81f89919fb6958",
+      "source_url": "https://opengameart.org/content/applause",
+      "author": "Blender Foundation; applause edit submitted by LeeZH",
+      "license": "CC BY 3.0",
+      "source_start_seconds": 0.25,
+      "seconds": 1.6,
+      "stored_sample_rate": 16000,
+      "stored_signed_bits": 8,
+      "stored_samples": 25600,
+      "max_abs_sample": 120,
+      "preview": "applause_1600ms.wav",
+      "preview_sha256": "637a45e551d0d4dc976869dd615f660af9cebc663bdb2495a1668483f6f7f17d"
+    },
+    {
+      "name": "sigh",
+      "source": "sigh_source.ogg",
+      "source_sha256": "f0418e65e837db45c5ba752ee1a9922fc53bcd7b11976a4c699eeb121d58947f",
+      "source_url": "https://freesound.org/people/BlueSiren/sounds/377736/",
+      "author": "BlueSiren",
+      "license": "CC0 1.0",
+      "source_start_seconds": 0.85,
+      "seconds": 1.6,
+      "stored_sample_rate": 16000,
+      "stored_signed_bits": 8,
+      "stored_samples": 25600,
+      "max_abs_sample": 120,
+      "preview": "sigh_1600ms.wav",
+      "preview_sha256": "11181b0840d76aad24c420202d6aae3a2cdab126bffb980846bfcca2ccedfd85"
+    }
+  ],
+  "rom_sha256": "61bb460e67ac218223370052b7cfae3da3c70b2b9a198e7d6dc91f6666fd4439",
+  "rom_bytes": 51200,
+  "output_sample_rate": 48000,
+  "fade_in_ms": 15,
+  "fade_out_ms": 100,
+  "processing": "mono, antialiased resampling, DC removal, tanh soft limiter, signed 8-bit quantization"
+}
